@@ -1,0 +1,32 @@
+{
+    "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
+    "terminal.integrated.fontSize": 12,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.fontLigatures": false,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.suggestSelection": "first",
+    "editor.guides.bracketPairs": "active",
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.compactFolders": false,
+    "javascript.suggest.enabled": true,
+    "javascript.format.enable": true,
+    "javascript.validate.enable": true,
+    "files.associations": {
+        "*.js": "javascript",
+        "*.ts": "typescript",
+        "*.tsx": "typescriptreact",
+        "*.mdx": "markdown",
+    },
+    "files.exclude": {
+        "**/.git": false
+    },
+}

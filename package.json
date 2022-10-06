@@ -17,7 +17,7 @@
 		"UI Development",
 		"Recommended Extensions"
 	],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "jmessex",
   "engines": {
     "vscode": "^1.71.0"
