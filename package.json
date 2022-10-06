@@ -1,0 +1,59 @@
+{
+  "name": "platform-ui-extension-pack",
+  "displayName": "Platform UI Recommended Extension Pack",
+  "description": "A set of extensions which any team of React UI developer can download as a team baseline.",
+	"icon": "images/star-trek-whale-probe.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JMEssex/vscode-ui-recommended-extension-pack.git"
+	},
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+		"package": "npx vsce package",
+		"publish": "npx vsce publish"
+	},
+  "keywords": [
+		"React",
+		"UI Development",
+		"Recommended Extensions"
+	],
+  "version": "1.0.0",
+  "publisher": "jmessex",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "aaron-bond.better-comments",
+    "ashhitch.vs-code-css-comments", 
+    "burkeholland.simple-react-snippets", 
+    "cschlosser.doxdocgen", 
+    "dbaeumer.vscode-eslint", 
+    "donjayamanne.githistory", 
+    "dsznajder.es7-react-js-snippets", 
+    "eamodio.gitlens", 
+    "ecmel.vscode-html-css", 
+    "EditorConfig.EditorConfig", 
+    "eg2.vscode-npm-script", 
+    "esbenp.prettier-vscode", 
+    "gitlab.gitlab-workflow", 
+    "irongeek.vscode-env", 
+    "jeff-hykin.code-eol", 
+    "johnpapa.vscode-peacock", 
+    "johnpapa.winteriscoming", 
+    "mhutchie.git-graph", 
+    "ms-azuretools.vscode-docker", 
+    "ms-vscode-remote.remote-containers", 
+    "ms-vsliveshare.vsliveshare-pack", 
+    "msjsdiag.vscode-react-native", 
+    "PKief.material-icon-theme", 
+    "streetsidesoftware.code-spell-checker", 
+    "vespa-dev-works.jestRunIt", 
+    "VisualStudioExptTeam.intellicode-api-usage-examples", 
+    "VisualStudioExptTeam.vscodeintellicode", 
+    "yzhang.markdown-all-in-one", 
+    "zhuangtongfa.material-theme"
+  ]
+}
